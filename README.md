@@ -46,7 +46,7 @@ This is a full-stack cross-platform application that provides:
 
 ### System Architecture Diagram
 
-![System Architecture](./architecture.jpg)
+![System Architecture](./architecture.png)
 
 > The architecture includes:
 > - **Next.js + Tailwind CSS** frontend
