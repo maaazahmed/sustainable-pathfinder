@@ -328,3 +328,22 @@ async def read_root(data: Body):
     }
 
 # uv run uvicorn main:app --reload --host 0.0.0.0 --port 8000
+# To start the project 
+
+#     Run Server
+#           cd stp-server
+#            npm i or yarn
+#            npm Statr
+
+#     Run Clisnt
+#           cd stp-client
+#            npm i or yarn
+#            npm Statr
+
+#     Run chatbot
+     
+#            install uv (pakege manget)
+#            cd chatbot 
+#            run command uv installl
+#           run project => uv run uvicorn main:app --reload --host 0.0.0.0 --port 8000
+  
