@@ -234,9 +234,8 @@ def setup_config():
 
                 5. **Rules**  
                 - Don’t mix developer and project info in one paragraph.  
-                - Ignore queries not about developer or project.
+                
                 """
-             
 
             
 
@@ -294,7 +293,7 @@ app:FastAPI =  FastAPI(lifespan=lifespan, title="FastAPI Neon Todo API", version
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3001","http://localhost:3001"],  # Specify your frontend's origin
+    allow_origins=["http://localhost:3001","http://localhost:3000"],  # Specify your frontend's origin
     allow_methods=["*"],                      # Allow all HTTP methods
     allow_headers=["*"],                      # Allow all headers
 )

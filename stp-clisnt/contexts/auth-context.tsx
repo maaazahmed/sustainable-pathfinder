@@ -35,7 +35,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     try {
       setLoading(true)
       const response = await fetch("/api/auth/me")
-      // const response = await fetch("http://localhost:5000/api/auth/user")
 
       console.log("Response from /api/auth/me:", response)
 
